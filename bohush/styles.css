@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto";
+  color: #878787;
+}
+.resume {
+  padding: 20px 0;
+}
+.container {
+  width: 620px;
+  height: 842px;
+  margin: 0 auto;
+  background-color: #E8EAEE;
+}
+.resume-inner {
+  display: flex;
+}
+.resume-intro {
+  display: flex;
+  flex-direction: column;
+  width: 210px;
+  height: 842px;
+  background-color: #9d8665;
+}
+.short-info {
+  padding: 10px;
+}
+.resume-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+}
+.photo {
+  width: 210px;
+  height: 210px;
+  background-image: url("./assets/images/cv.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.title {
+  margin-bottom: 5px;
+  color: #710707;
+}
+.title-skills {
+  text-align: center;
+}
+.text {
+  color: #030303;
+}
+.name {
+  text-align: center;
+  font-weight: 500;
+}
+.position {
+  text-align: center;
+  font-size: 14px;
+  color: #353232;
+}
+.contacts-text {
+  color: #030303;
+  font-size: 14px;
+}
+.subtext {
+  font-size: 14px;
+}
+.year {
+  font-weight: 500;
+}
+.engineer {
+  margin-bottom: 10px;
+}
+.location, .phone, .email, .telegram, .github {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.location {
+  margin-top: 20px;
+}
+.github {
+  margin-bottom: 20px;
+}
+.icon {
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.icon-location {
+  background-image: url("./assets/images/svg/location.svg");
+}
+.icon-phone {
+  background-image: url("./assets/images/svg/phone.svg");
+}
+.icon-email {
+  background-image: url("./assets/images/svg/email.svg");
+}
+.icon-telegram {
+  background-image: url("./assets/images/svg/telegram.svg");
+}
+.icon-github {
+  background-image: url("./assets/images/svg/github.svg");
+}
+.description {
+  margin-left: 20px;
+  margin-top: 5px;
+}
+.description li {
+  font-size: 14px;
+}
+.html, .css, .js, .figma, .git, .react {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.skills-icon {
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.skills-icon-html {
+  background-image: url("./assets/images/svg/html5.svg");
+}
+.skills-icon-css {
+  background-image: url("./assets/images/svg/css3.svg");
+}
+.skills-icon-js {
+  background-image: url("./assets/images/svg/js.svg");
+}
+.skills-icon-git {
+  background-image: url("./assets/images/svg/git.svg");
+}
+.skills-icon-figma {
+  background-image: url("./assets/images/svg/figma.svg");
+}
+.skills-icon-react {
+  background-image: url("./assets/images/svg/react.svg");
+}
