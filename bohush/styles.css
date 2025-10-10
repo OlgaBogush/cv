@@ -64,6 +64,11 @@
   color: #030303;
   font-size: 14px;
 }
+.contacts-text-link {
+  text-decoration: none;
+
+  transition: color .2s linear;
+}
 .subtext {
   font-size: 14px;
 }
@@ -77,6 +82,32 @@
   display: flex;
   align-items: center;
   gap: 5px;
+
+  transition: scale .2s linear;
+}
+.email, .telegram, .github {
+  cursor: pointer;
+}
+.email:hover .icon-email {
+  opacity: .6;
+  scale: 1.05;
+}
+.email:hover .contacts-text-link {
+  color: #353232;
+}
+.telegram:hover .icon-telegram {
+  opacity: .6;
+  scale: 1.05;
+}
+.telegram:hover .contacts-text-link {
+  color: #353232;
+}
+.github:hover .icon-github {
+  opacity: .6;
+  scale: 1.05;
+}
+.github:hover .contacts-text-link {
+  color: #353232;
 }
 .location {
   margin-top: 20px;
@@ -90,6 +121,8 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+
+  transition: opacity .2s linear;
 }
 .icon-location {
   background-image: url("./assets/images/svg/location.svg");
